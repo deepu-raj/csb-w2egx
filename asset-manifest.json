@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "https://deepu-raj.github.io/csb-w2egx/static/css/main.8ecbf319.chunk.css",
+    "main.js": "https://deepu-raj.github.io/csb-w2egx/static/js/main.f24a38e7.chunk.js",
+    "main.js.map": "https://deepu-raj.github.io/csb-w2egx/static/js/main.f24a38e7.chunk.js.map",
+    "runtime-main.js": "https://deepu-raj.github.io/csb-w2egx/static/js/runtime-main.8506ae7b.js",
+    "runtime-main.js.map": "https://deepu-raj.github.io/csb-w2egx/static/js/runtime-main.8506ae7b.js.map",
+    "static/js/2.763c68e8.chunk.js": "https://deepu-raj.github.io/csb-w2egx/static/js/2.763c68e8.chunk.js",
+    "static/js/2.763c68e8.chunk.js.map": "https://deepu-raj.github.io/csb-w2egx/static/js/2.763c68e8.chunk.js.map",
+    "index.html": "https://deepu-raj.github.io/csb-w2egx/index.html",
+    "static/css/main.8ecbf319.chunk.css.map": "https://deepu-raj.github.io/csb-w2egx/static/css/main.8ecbf319.chunk.css.map",
+    "static/js/2.763c68e8.chunk.js.LICENSE.txt": "https://deepu-raj.github.io/csb-w2egx/static/js/2.763c68e8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8506ae7b.js",
+    "static/js/2.763c68e8.chunk.js",
+    "static/css/main.8ecbf319.chunk.css",
+    "static/js/main.f24a38e7.chunk.js"
+  ]
+}
