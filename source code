@@ -1,0 +1,68 @@
+import "./styles.css";
+import React, { useState } from "react";
+
+export default function App() {
+  const drama = [
+    { name: "So Long, My Son", rating: "5/5" },
+    { name: "Schindlers List", rating: "4.5/5" }
+  ];
+  const comedy = [
+    {
+      name: "Snatch",
+      rating: "4/5"
+    },
+    { name: "Two Barrels", rating: "4/5" }
+  ];
+  const science = [
+    { name: "Interstellar", rating: "4/5" },
+    { name: "ET", rating: "4/5" }
+  ];
+  const movies = {
+    Drama: drama,
+    Comedy: comedy,
+    Science: science
+  };
+  var [genreSelect, setgenreSelect] = useState("Science");
+  var movieList = Object.keys(movies);
+
+  function clickHandler(x) {
+    setgenreSelect(x);
+  }
+
+  return (
+    <div className="App">
+      <div class="container">
+        <h1>
+          <img class="image" src="image.png" /> My Movie List
+        </h1>
+        <h3> Hit on the genre to check out my favourites</h3>
+      </div>
+      <nav class="navDiv">
+        {movieList.map((genre) => {
+          return (
+            <button class="btn" onClick={() => clickHandler(genre)}>
+              {genre}
+            </button>
+          );
+        })}
+      </nav>
+      <ul class="list-nonbullet">
+        {movies[genreSelect].map((movie) => {
+          return (
+            <li class="listDiv">
+              <div class="list">{movie.name}</div>
+              <div class="list2">Rating: {movie.rating}</div>
+            </li>
+          );
+        })}
+      </ul>
+      <footer>
+        <p class="footer-head">About</p>
+        <p>
+          {" "}
+          App made using ReactJS. Part of Neogcamp LevelZero MarkNine Assignment{" "}
+        </p>
+      </footer>
+    </div>
+  );
+}
